@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TableCell Audit</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="app.mjs"></script>
+</head>
+<body>
+<header>
+  <div class="brand">TableCell<span>Audit</span></div>
+  <div class="privacy"><i></i> Files stay in your browser</div>
+</header>
+<main>
+  <section class="intro">
+    <h1>Check each number<br>against its source.</h1>
+    <p>Compare a CSV table with the original PDF. Select a result to see the source position on the page.</p>
+  </section>
+  <section class="controls" aria-label="Files to compare">
+    <label>Original PDF<input id="pdf" type="file" accept="application/pdf,.pdf"></label>
+    <label>Extracted CSV<input id="csv" type="file" accept="text/csv,.csv"></label>
+    <label class="page-picker">PDF page<input id="page" type="number" min="1" value="1" disabled></label>
+    <div class="samples">
+      <button id="sampleBad" type="button">Try switched years</button>
+      <button id="sampleGood" type="button">Try correct data</button>
+    </div>
+    <p class="guide">CSV format: label column, then year columns. Start with a selectable PDF table.</p>
+  </section>
+  <p id="message" role="status">Choose both files or open a sample.</p>
+  <div class="results">
+    <section class="result-panel" aria-label="Comparison">
+      <div class="panel-title"><h2>Comparison</h2><span id="summary"></span></div>
+      <label id="tablePicker" hidden>Table header<select id="header"></select></label>
+      <div id="comparison" class="table-scroll"></div>
+    </section>
+    <section class="result-panel source-panel" aria-label="Original PDF">
+      <div class="panel-title"><h2>Original PDF</h2><span id="sourceName"></span></div>
+      <div id="sourceScroll" class="source-scroll">
+        <div id="pageFrame" hidden>
+          <canvas id="canvas" aria-label="Rendered original PDF page"></canvas>
+          <div id="mark" aria-hidden="true" hidden></div>
+        </div>
+      </div>
+      <p id="selection" role="status"></p>
+    </section>
+  </div>
+</main>
+</body>
+</html>

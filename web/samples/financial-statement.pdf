@@ -1,0 +1,55 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [3 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1002 >>
+stream
+0.12 0.18 0.34 rg
+BT /F1 22 Tf 58 724 Td (Illustrative cash flow statement) Tj ET
+BT /F1 10 Tf 58 699 Td (Synthetic sample for testing table extraction, units as shown.) Tj ET
+0.94 0.95 0.99 rg 52 638 510 32 re f
+0.12 0.18 0.34 rg
+BT /F1 13 Tf 60 649 Td (Item) Tj ET
+BT /F1 13 Tf 332 649 Td (2024) Tj ET
+BT /F1 13 Tf 460 649 Td (2025) Tj ET
+BT /F1 13 Tf 60 614 Td (Operating cash) Tj ET
+BT /F1 13 Tf 327 614 Td (128,400) Tj ET
+BT /F1 13 Tf 455 614 Td (138,600) Tj ET
+0.8 0.83 0.89 RG 52 600 m 562 600 l S
+BT /F1 13 Tf 60 576 Td (Investing cash) Tj ET
+BT /F1 13 Tf 327 576 Td (\(42,700\)) Tj ET
+BT /F1 13 Tf 455 576 Td (\(47,300\)) Tj ET
+0.8 0.83 0.89 RG 52 562 m 562 562 l S
+BT /F1 13 Tf 60 538 Td (Financing cash) Tj ET
+BT /F1 13 Tf 327 538 Td (15,900) Tj ET
+BT /F1 13 Tf 455 538 Td (19,700) Tj ET
+0.8 0.83 0.89 RG 52 524 m 562 524 l S
+BT /F1 13 Tf 60 500 Td (Net cash change) Tj ET
+BT /F1 13 Tf 327 500 Td (101,600) Tj ET
+BT /F1 13 Tf 455 500 Td (111,000) Tj ET
+0.8 0.83 0.89 RG 52 486 m 562 486 l S
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1364
+%%EOF
