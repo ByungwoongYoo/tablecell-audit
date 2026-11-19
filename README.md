@@ -2,8 +2,8 @@
 
 Compare an extracted CSV table with its source PDF. The comparison keeps the
 row label and year attached to each amount, so swapped figures are visible
-even if all the same numbers are present. Select a result to highlight the
-original text run on the PDF page.
+even if all the same numbers are present. Select a result with a source
+position to highlight the corresponding text on the PDF page.
 
 ## Run locally
 
@@ -44,11 +44,12 @@ The browser reads and compares both files locally. For static hosting,
 ## Reading the results
 
 The checker is designed for text-based tables on a single selected page
-with an unambiguous header and one label per row. Blank cells, duplicate or
-unmatched labels, and currency or percent marker differences require
-review. A match describes the compared cell on the selected page. The
-checker does not perform OCR or reconcile prose with table data. PDF text
-runs containing multiple words may be highlighted as a group.
+with an unambiguous header and one label per row. The comparison covers the
+rows and years listed in the CSV. Blank cells, duplicate or unmatched labels,
+and currency or percent marker differences require review. A match describes
+the compared cell on the selected page. The checker does not perform OCR or
+reconcile prose with table data. PDF text runs containing multiple words may
+be highlighted as a group.
 
 TableCell Audit is MIT-licensed. PDF rendering uses the bundled Apache-2.0
 PDF.js dependency. The synthetic PDF and CSVs can be regenerated with
