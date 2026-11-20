@@ -8,7 +8,8 @@ header{display:flex;justify-content:space-between;align-items:center;border-bott
 .privacy i{display:inline-block;width:7px;height:7px;background:#3a7c54;border-radius:50%;margin-right:5px}
 main{max-width:1228px;margin:auto;padding:36px 24px 44px}
 .intro h1{font-size:clamp(2.6rem,7vw,4.9rem);line-height:1;letter-spacing:-.072em;margin:0 0 10px;font-weight:800}
-.intro p{color:var(--muted);max-width:570px;font-size:1.03rem;line-height:1.5;margin:0 0 26px}
+.intro p{color:var(--muted);max-width:570px;font-size:1.03rem;line-height:1.5;margin:0 0 12px}
+.source-link{display:inline-block;margin-bottom:26px;color:var(--blue);font-size:.9rem;font-weight:650}
 .controls{background:white;padding:16px;border-radius:12px;border:1px solid var(--line);display:grid;gap:12px;grid-template-columns:minmax(145px,1fr) minmax(145px,1fr) 108px auto;align-items:end}
 .controls label{display:grid;gap:7px;font-weight:650;font-size:.86rem}
 input,button,select{font:inherit}
@@ -17,7 +18,7 @@ input::file-selector-button{border:0;background:#eef2ff;padding:4px 8px;border-r
 .samples{display:flex;gap:7px}
 button{background:#eef2ff;border:1px solid #d5dfff;border-radius:7px;padding:8px;color:var(--blue);cursor:pointer;text-align:left}
 button:hover{border-color:var(--blue)}
-button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.source-link:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
 .guide{grid-column:1/-1;font-size:.82rem;color:var(--muted);margin:0}
 #message{font-size:.9rem;color:var(--muted);min-height:1.2em}
 .results{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:13px;align-items:start}

@@ -5,6 +5,8 @@ row label and year attached to each amount, so swapped figures are visible
 even if all the same numbers are present. Select a result with a source
 position to highlight the corresponding text on the PDF page.
 
+**[Try the browser demo](https://byungwoongyoo.github.io/tablecell-audit/)**
+
 ## Run locally
 
 Node.js 22.13 or later is required.
